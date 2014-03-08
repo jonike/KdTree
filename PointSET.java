@@ -52,7 +52,6 @@ public class PointSET {
        Iterator<Point2D> iter = queue.iterator();
        while (iter.hasNext()) {
            Point2D p = iter.next();
-           //if (rect.contains(p)) s.push(p);
            if (p.x() >= rect.xmin() && p.x() <= rect.xmax())
                s.push(p);
        }
